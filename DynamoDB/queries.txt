@@ -1,0 +1,33 @@
+Def:
+Ballot - group of elections
+Election - collection of votes for a series of candidates
+Vote - for an election, one person's preference order
+Person - 
+
+Queries:
+Get all votes in an election
+Get vote by person in an election
+Get all elections by ballot
+
+Organization:
+Votes 
+Hash: election
+Range: person
+Data: vote, time, etc
+
+Ballots
+Hash: Ballot
+Range: Election?
+Data: None, since just retrieve elections by ballot
+
+Alternative:
+All
+Hash: ballot
+Range: Election, person
+
+Alt is better bc groups elections within ballots, all in one table
+
+
+
+
+
