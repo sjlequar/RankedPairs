@@ -2,9 +2,8 @@
 Ranked Pairs
 
 This module can run the Ranked Pairs election method given a set of votes
-represented as preferences.
-
-The method is taken from the Wikipedia article on Ranked Pairs
+represented as preferences. The implementation was taken from the wikipedia
+article on Ranked Pairs, with a few performance based modifications
 
 Written by Simon Lequar, Dabney '22
 """
